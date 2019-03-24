@@ -4,7 +4,7 @@ import scipy
 import os
 from PIL import Image
 import torch
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import numpy as np
 from skimage import io, transform
 from model import ModelFactory
