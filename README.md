@@ -1,4 +1,4 @@
-# TDAN_VSR
+# TDAN_VSR （The pre-trained model is corresponding to the Paper.）
 
 ## Usage
 
