@@ -1,4 +1,4 @@
-# TDAN_VSR （The pre-trained model is corresponding to the Paper.）
+# TDAN_VSR （The pre-trained model is not used model in the arxiv paper.）
 
 ## Usage
 
