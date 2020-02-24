@@ -1,4 +1,4 @@
-# TDAN_VSR （Under Construction）
+# TDAN-CVPR 2020 （The full code will be released soon!）
 
 ## Usage
 
