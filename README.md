@@ -13,12 +13,14 @@ $ python eval.py -t test_dataset_path
 
 ### Citation
 
-If you find this work useful, please consider citing it.
+If you find the code helpful in your resarch or work, please cite our paper:
+```
 
-<pre><code>@Article{tian2018tdan,
+@InProceedings{tian2018tdan,
   author={Yapeng Tian, Yulun Zhang, Yun Fu, and Chenliang Xu},
   title={TDAN: Temporally Deformable Alignment Network for Video Super-Resolution},
-  booktitle = {ArXiv},
-  year = {2018}
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2020}
 }
-</code></pre>
+```
