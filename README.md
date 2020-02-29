@@ -15,10 +15,16 @@ $ python eval.py -t test_dataset_path
 
 If you find the code helpful in your resarch or work, please cite our paper:
 ```
+@article{tian2018tdan,
+  title={Tdan: Temporally deformable alignment network for video super-resolution},
+  author={Tian, Yapeng and Zhang, Yulun and Fu, Yun and Xu, Chenliang},
+  journal={arXiv preprint arXiv:1812.02898},
+  year={2018}
+}
 
-@InProceedings{tian2018tdan,
+@InProceedings{tian2020tdan,
   author={Yapeng Tian, Yulun Zhang, Yun Fu, and Chenliang Xu},
-  title={TDAN: Temporally Deformable Alignment Network for Video Super-Resolution},
+  title={TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution},
   booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   month = {June},
   year = {2020}
