@@ -1,4 +1,7 @@
 # TDAN-CVPR 2020 （The full code will be released soon!）
+This is the official Pytorch implementation of *TDAN: Temporally Deformable Alignment Network for Video Super-Resolution*. 
+
+#### [Paper](https://arxiv.org/abs/1812.02898) | [Demo Video](https://www.youtube.com/watch?v=eZExENE50I0) 
 
 ## Usage
 
@@ -31,25 +34,9 @@ If you find the code helpful in your resarch or work, please cite our paper:
 }
 ```
 
-### Related Work
+### Resources for deformanble convolution in video restoration
 
-TDAN has been followed and improved in recent [EDVR](https://github.com/xinntao/EDVR) for video super-resolution and deblurring and [Zooming Slow-Mo](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020) for space-time video super-resolution.
+TDAN present a promising framework for deformable alignment, which is shown very effective in video restoration tasks. We are super excited that our works has inspired many well-performing methods. We list a few of them for your potential reference:
 
-```BibTex
-@InProceedings{xiang2020zooming,
-  author = {Xiang, Xiaoyu and Tian, Yapeng and Zhang, Yulun and Fu, Yun and Jan, Allebach and Xu, Chenliang},
-  title = {Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time VideoSuper-Resolution},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month = {June},
-  year = {2020}
-}
-
-@InProceedings{wang2019edvr,
-  author    = {Wang, Xintao and Chan, Kelvin C.K. and Yu, Ke and Dong, Chao and Loy, Chen Change},
-  title     = {EDVR: Video restoration with enhanced deformable convolutional networks},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-  month     = {June},
-  year      = {2019},
-}
-```
-
+* EDVR: Video restoration with enhanced deformable convolutional networks: [paper](https://arxiv.org/abs/1905.02716), [code](https://github.com/xinntao/EDVR)
+* Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time VideoSuper-Resolution: [paper](https://arxiv.org/abs/2002.11616), [code](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020)
