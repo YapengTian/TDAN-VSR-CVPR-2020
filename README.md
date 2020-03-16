@@ -30,3 +30,26 @@ If you find the code helpful in your resarch or work, please cite our paper:
   year = {2020}
 }
 ```
+
+### Related Work
+
+TDAN has been followed and improved in recent [EDVR](https://github.com/xinntao/EDVR) for video super-resolution and deblurring and [Zooming Slow-Mo](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020) for space-time video super-resolution.
+
+```BibTex
+@InProceedings{xiang2020zooming,
+  author = {Xiang, Xiaoyu and Tian, Yapeng and Zhang, Yulun and Fu, Yun and Jan, Allebach and Xu, Chenliang},
+  title = {Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time VideoSuper-Resolution},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2020}
+}
+
+@InProceedings{wang2019edvr,
+  author    = {Wang, Xintao and Chan, Kelvin C.K. and Yu, Ke and Dong, Chao and Loy, Chen Change},
+  title     = {EDVR: Video restoration with enhanced deformable convolutional networks},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  month     = {June},
+  year      = {2019},
+}
+```
+
