@@ -14,7 +14,7 @@ $ python eval.py -t test_dataset_path
 ### Citation
 
 If you find the code helpful in your resarch or work, please cite our paper:
-```
+```BibTex
 @article{tian2018tdan,
   title={Tdan: Temporally deformable alignment network for video super-resolution},
   author={Tian, Yapeng and Zhang, Yulun and Fu, Yun and Xu, Chenliang},
