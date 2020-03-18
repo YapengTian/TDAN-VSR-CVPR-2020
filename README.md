@@ -3,7 +3,7 @@ This is the official Pytorch implementation of *TDAN: Temporally-Deformable Alig
 
 #### [Paper](https://arxiv.org/abs/1812.02898) | [Demo Video](https://www.youtube.com/watch?v=eZExENE50I0) 
 
-[![Watch the video](doc/demo_thumbnail.PNG)](https://youtu.be/8mgD8JxBOus)
+[![Watch the video](doc/demo_thumbnail.png)](https://youtu.be/8mgD8JxBOus)
 
 ## Usage
 
