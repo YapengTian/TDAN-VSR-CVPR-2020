@@ -9,7 +9,7 @@ description='Video Super Resolution pytorch implementation'
 parser = argparse.ArgumentParser(description=description)
 
 parser.add_argument('-m', '--model', metavar='M', type=str, default='TDAN',
-                    help='network architecture. Default VRES')
+                    help='network architecture. Default TDAN')
 parser.add_argument('-s', '--scale', metavar='S', type=int, default=4,
                     help='interpolation scale. Default 3')
 parser.add_argument('--train-set', metavar='T', type=str, default='/trainman-mount/trainman-storage-fce3d08d'
@@ -22,15 +22,15 @@ parser.add_argument('-b', '--batch-size', metavar='B', type=int, default=64,
                     help='batch size used for training. Default 100')
 parser.add_argument('-l', '--learning-rate', metavar='L', type=float, default=1e-4,
                     help='learning rate used for training. Default 1e-3')
-parser.add_argument('-n', '--num-epochs', metavar='N', type=int, default=90,
-                    help='number of training epochs. Default 100')
+parser.add_argument('-n', '--num-epochs', metavar='N', type=int, default=600,
+                    help='number of training epochs. Default 600')
 parser.add_argument('-f', '--fine-tune', dest='fine_tune', action='store_true',
                     help='fine tune the model under check_point dir,\
                     instead of training from scratch. Default False')
 parser.add_argument('-v', '--verbose', dest='verbose', action='store_true',
                     help='print training information. Default False')
 parser.add_argument('-g', '--gpu', metavar='G', type=str, default='0',
-                    help='network architecture. Default VRES')
+                    help='GPU numbers')
 parser.add_argument('-cp', '--checkpoint', metavar='CP', type=str, default='/trainman-mount/trainman-storage-fce3d08d-a53c-4583-bc89-004bed17fb4b/checkpoint',
                     help='network architecture. Default False')
 args = parser.parse_args()
