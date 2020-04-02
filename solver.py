@@ -176,7 +176,7 @@ class Solver(object):
             model.parameters(),
             lr=self.learning_rate, weight_decay=1e-6)
         self.scheduler = lr_scheduler.StepLR(self.optimizer, step_size=200, gamma=0.5)
-        self.loss_fn = kwargs.pop('loss_fn', nn.L1Loss())
+        self.loss_fn = kwargs.pop('loss_fn', nn.MSELoss())
         self.fine_tune = kwargs.pop('fine_tune', False)
         self.verbose = kwargs.pop('verbose', False)
         self.print_every = kwargs.pop('print_every', 10)
