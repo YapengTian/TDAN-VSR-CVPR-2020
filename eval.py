@@ -70,7 +70,7 @@ parser.add_argument('-m', '--model', metavar='M', type=str, default='TDAN',
                     help='network architecture.')
 parser.add_argument('-s', '--scale', metavar='S', type=int, default=4, 
                     help='interpolation scale. Default 4')
-parser.add_argument('-t', '--test-set', metavar='NAME', type=str, default='data/test_set',
+parser.add_argument('-t', '--test-set', metavar='NAME', type=str, default='/home/cxu-serve/u1/ytian21/project/video_retoration/TDAN-VSR/data/Vid4',
                     help='dataset for testing.')
 parser.add_argument('-mp', '--model-path', metavar='MP', type=str, default='model',
                     help='model path.')
