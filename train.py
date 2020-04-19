@@ -12,12 +12,10 @@ parser.add_argument('-m', '--model', metavar='M', type=str, default='TDAN',
                     help='network architecture. Default TDAN')
 parser.add_argument('-s', '--scale', metavar='S', type=int, default=4,
                     help='interpolation scale. Default 3')
-parser.add_argument('--train-set', metavar='T', type=str, default='/trainman-mount/trainman-storage-fce3d08d'
-                                                                  '-a53c-4583-bc89-004bed17fb4b/data/VSR_data/train',
+parser.add_argument('--train-set', metavar='T', type=str, default='data/VSR_data/train',
                     help='data set for training. Default train')
-parser.add_argument('--test-set', metavar='NAME', type=str, default='/trainman-mount/trainman-storage-fce3d08d'
-                                                                  '-a53c-4583-bc89-004bed17fb4b/data/VSR_data/vid4/Temple',
-                    help='dataset for testing. Default Temple')
+parser.add_argument('--test-set', metavar='NAME', type=str, default='data/VSR_data/val/Temple',
+                    help='dataset for testing. Default Temple from SPMC  dataset')
 parser.add_argument('-b', '--batch-size', metavar='B', type=int, default=64,
                     help='batch size used for training. Default 100')
 parser.add_argument('-l', '--learning-rate', metavar='L', type=float, default=1e-4,
@@ -31,7 +29,7 @@ parser.add_argument('-v', '--verbose', dest='verbose', action='store_true',
                     help='print training information. Default False')
 parser.add_argument('-g', '--gpu', metavar='G', type=str, default='0',
                     help='GPU numbers')
-parser.add_argument('-cp', '--checkpoint', metavar='CP', type=str, default='/trainman-mount/trainman-storage-fce3d08d-a53c-4583-bc89-004bed17fb4b/checkpoint',
+parser.add_argument('-cp', '--checkpoint', metavar='CP', type=str, default='/checkpoint',
                     help='network architecture. Default False')
 args = parser.parse_args()
 
