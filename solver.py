@@ -367,7 +367,7 @@ class Solver(object):
         """
 
         # check fine_tuning option
-        model_path = os.path.join(self.check_point, 'model_gaussian.pt')
+        model_path = os.path.join(self.check_point, 'model.pt')
         if self.fine_tune and not os.path.exists(model_path):
             raise Exception('Cannot find %s.' % model_path)
         elif self.fine_tune and os.path.exists(model_path):
@@ -417,7 +417,7 @@ class Solver(object):
                         # write the model to hard-disk for testing
                         if not os.path.exists(self.check_point):
                             os.makedirs(self.check_point)
-                        model_path = os.path.join(self.check_point, 'model_gaussian.pt')
+                        model_path = os.path.join(self.check_point, 'model.pt')
                         torch.save(self.model, model_path)
                         print(' Best average psnr: %.3f' % (best_psnr))
                         print('')
@@ -427,7 +427,7 @@ class Solver(object):
         Load the model stored in train_model.pt from training phase,
         then return the average PNSR on test samples.
         """
-        model_path = os.path.join(self.check_point, 'model_gaussian.pt')
+        model_path = os.path.join(self.check_point, 'model.pt')
         if not os.path.exists(model_path):
             raise Exception('Cannot find %s.' % model_path)
 
