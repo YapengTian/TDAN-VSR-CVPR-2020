@@ -28,7 +28,7 @@ If you find the code helpful in your resarch or work, please cite our paper:
 }
 
 @InProceedings{tian2020tdan,
-  author={Yapeng Tian, Yulun Zhang, Yun Fu, and Chenliang Xu},
+  author={Tian, Yapeng and Zhang, Yulun and Fu, Yun and Xu, Chenliang},
   title={TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution},
   booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   month = {June},
