@@ -1,7 +1,7 @@
 # TDAN-CVPR 2020 （Keep Update）
 This is the official Pytorch implementation of *TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution*. 
 
-#### [Paper](https://arxiv.org/abs/1812.02898) | [Demo Video](https://www.youtube.com/watch?v=eZExENE50I0) 
+#### [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tian_TDAN_Temporally-Deformable_Alignment_Network_for_Video_Super-Resolution_CVPR_2020_paper.pdf) | [Demo Video](https://www.youtube.com/watch?v=eZExENE50I0) 
 
 [![Watch the video](doc/demo_thumbnail.png)](https://www.youtube.com/watch?v=eZExENE50I0)
 
